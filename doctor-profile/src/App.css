@@ -170,7 +170,7 @@ li.list {
   margin: 12rem 8rem;
   box-shadow: 0 0 40px 5px #00000008;
   background-color: white;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .contactHead {
   text-align: center;
@@ -186,24 +186,88 @@ li.list {
 }
 .icon {
   /* background-color: #00787b; */
-  width: 35%;
-  height: 100%;
+  width: 25%;
+  height: 50%;
   margin-top: 20px;
 }
 .iconPhone{
   
-  background: url(icon-phone.png);
+  
+  background: #00acb1 url(icon-email.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.5rem;
+  border-radius:20px ;
+  /* margin: 0px 10px 0 0; */
+  margin-right: 20px;
 }
 .iconEmail{
   
-  background: url(icon-email.png);
+  background: #00acb1 url(icon-email.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2rem;
+  border-radius:20px ;
+  /* margin: 0px 10px 0 0; */
+  margin-right: 20px;
 }
 .iconAddress{
   
   
-  background: url(icon-address.png);
+  background: #00acb1 url(icon-address.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2rem;
+  border-radius:20px ;
+  /* margin: 0px 10px 0 0; */
+  margin-right: 20px;
+  
 }
 
+.paddingBtm{
+  padding-bottom: 25px;
+}
+.inp{
+  border: none;
+  border: 1px solid rgba(211, 211, 211, 0.289);
+  outline: none;
+  padding: 20px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  width: 90%;
+  margin-left: 1rem;
+}
+.inpName{
+  
+  background: url(icon-name.png);
+  background-repeat: no-repeat;
+  background-position:  13rem;
+  background-size:1.5rem;
+}
+.inpEmail{
+  
+  background: url(icon-mail.png);
+  background-repeat: no-repeat;
+  background-position:  13rem;
+  background-size:1.5rem;
+  
+}
+.inpMessage{
+
+  padding:10px 0px 100px 10px;
+  
+}
+.contactBtn{
+  background: #00acb1;
+  text-transform: capitalize;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.contactBtn:hover{
+  background: #005963;
+  transition: .3s;
+
+
+}

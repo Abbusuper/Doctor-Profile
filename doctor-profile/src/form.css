@@ -13,11 +13,6 @@
   text-align: center;
 }
 
-.button-4:hover {
-  background-color: #f3f4f6;
-  text-decoration: none;
-  transition-duration: 0.1s;
-}
 
 .button-4:disabled {
   background-color: #fafbfc;

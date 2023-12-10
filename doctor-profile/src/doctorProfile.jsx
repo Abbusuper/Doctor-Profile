@@ -13,27 +13,20 @@ const DoctorProfile = () => {
         <div className="contactHead">
           <h1>Contact</h1>
         </div>
-        <div className="contactNumber">
-          <div className=" iconPhone icon">{/* <img src="icon-phone.png" /> */}</div>
-          <div className="phoneNumber">
-            <h3 className="titleContact">Our Phone</h3>
-            <span>7470999508</span>
-          </div>
-        </div>
-        <div className="contactNumber">
-          <div className="icon iconEmail"></div>
-          <div className="phoneNumber">
-            <h3 className="titleContact">Our Phone</h3>
-            <span>7470999508</span>
-          </div>
-        </div>
-        <div className="contactNumber">
-          <div className="icon iconAddress"></div>
-          <div className="phoneNumber">
-            <h3 className="titleContact">Our Phone</h3>
-            <span>7470999508</span>
-          </div>
-        </div>
+      <div className="formName">
+        <input type="text" className="inp inpName" placeholder="First Name" ></input>
+      </div>
+      <div className="formEmail">
+        <input type="email" className="inp inpEmail" placeholder="Email" ></input>
+      </div>
+      <div className="formName">
+        <textarea type="text" name="" id="" placeholder="Message" className="inp inpMessage"/>
+      </div>
+      <div className="formName">
+        <button className="button-4 contactBtn"> Send Message →</button>
+      </div>
+     
+       
       </div>
     </div>
   );
