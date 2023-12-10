@@ -187,7 +187,21 @@ li.list {
   /* background-color: #00787b; */
   width: 35%;
   height: 100%;
-  background: url(icon-phone.png);
-  background-repeat: no-repeat;
   margin-top: 20px;
 }
+.iconPhone{
+  
+  background: url(icon-phone.png);
+  background-repeat: no-repeat;
+}
+.iconEmail{
+  
+  background: url(icon-email.png);
+  background-repeat: no-repeat;
+}
+.iconAddress{
+  
+  background: url(icon-address.png);
+  background-repeat: no-repeat;
+}
+

@@ -14,14 +14,14 @@ const DoctorProfile = () => {
           <h1>Contact</h1>
         </div>
         <div className="contactNumber">
-          <div className="icon">{/* <img src="icon-phone.png" /> */}</div>
+          <div className=" iconPhone icon">{/* <img src="icon-phone.png" /> */}</div>
           <div className="phoneNumber">
             <h3 className="titleContact">Our Phone</h3>
             <span>7470999508</span>
           </div>
         </div>
         <div className="contactNumber">
-          <div className="icon"></div>
+          <div className="icon iconEmail"></div>
           <div className="phoneNumber">
             <h3 className="titleContact">Our Phone</h3>
             <span>7470999508</span>
