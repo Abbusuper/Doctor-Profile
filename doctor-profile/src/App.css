@@ -166,10 +166,11 @@ li.list {
   flex-direction: column;
   height: 30rem;
   width: 25rem;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   margin: 12rem 8rem;
   box-shadow: 0 0 40px 5px #00000008;
   background-color: white;
+  justify-content: space-between;
 }
 .contactHead {
   text-align: center;
@@ -200,6 +201,7 @@ li.list {
   background-repeat: no-repeat;
 }
 .iconAddress{
+  
   
   background: url(icon-address.png);
   background-repeat: no-repeat;

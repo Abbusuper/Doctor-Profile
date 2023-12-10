@@ -27,6 +27,13 @@ const DoctorProfile = () => {
             <span>7470999508</span>
           </div>
         </div>
+        <div className="contactNumber">
+          <div className="icon iconAddress"></div>
+          <div className="phoneNumber">
+            <h3 className="titleContact">Our Phone</h3>
+            <span>7470999508</span>
+          </div>
+        </div>
       </div>
     </div>
   );
